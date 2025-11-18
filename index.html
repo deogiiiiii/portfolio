@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포트비</title>
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--swiper-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--font-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <!--css-->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!--header-->
+    <div class="pc-head">
+      <div class="inner">
+        <div class="left-area">
+          <h1 class="logo">
+            <a href="index.html">
+              <img src="img/logo.png" alt="포트비 로고" />
+            </a>
+          </h1>
+          <ul class="menu-depth1">
+            <li>
+              <a href="#">입주 업체</a>
+            </li>
+            <li>
+              <a href="https://www.naver.com/">커뮤니티</a>
+            </li>
+            <li>
+              <a href="#">포텐츠</a>
+            </li>
+            <li>
+              <a href="#">이벤트</a>
+            </li>
+            <li>
+              <a href="#">입주 체크리스트</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login-area">
+          <ul class="login-btn login-before">
+            <li>
+              <a href="#">로그인</a>
+            </li>
+            <li class="bg-blue">
+              <a href="#">회원가입</a>
+            </li>
+          </ul>
+          <ul class="login-btn login-after">
+            <li>
+              <a href="#">로그아웃</a>
+            </li>
+            <li class="bg-blue">
+              <a href="#">마이페이지</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-btn">
+          <button class="search">
+            <img src="img/icon/ic-search2.svg" alt="검색" />
+          </button>
+          <div class="hambuger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mob-menu">
+      <ul class="mob-main">
+        <li>
+          <a href="#"> 입주 업체 </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)"> 커뮤니티 <span class="plus"></span></a>
+          <ul class="mob-sub">
+            <li>
+              <a href="#">서브1</a>
+            </li>
+            <li>
+              <a href="#">서브2</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)"> 포텐츠 <span class="plus"></span></a>
+          <ul class="mob-sub">
+            <li>
+              <a href="#">서브1</a>
+            </li>
+            <li>
+              <a href="#">서브2</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)">이벤트 <span class="plus"></span></a>
+          <ul class="mob-sub">
+            <li>
+              <a href="#">서브1</a>
+            </li>
+            <li>
+              <a href="#">서브2</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)">
+            입주 체크리스트 <span class="plus"></span
+          ></a>
+          <ul class="mob-sub">
+            <li>
+              <a href="#">서브1</a>
+            </li>
+            <li>
+              <a href="#">서브2</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!--content-->
+    <div class="content">
+      <!--main-sec1-->
+      <section class="wrap main-sec1">
+        <div class="inner">
+          <h1>상품 및 서비스</h1>
+          <ul class="cata-list">
+            <li>
+              <a href="#">
+                <div class="cata-icon">ALL</div>
+                <p class="cata-tit">전체</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">나노코팅</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">사전점검대행</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">새집증후군</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">시스템에어컨</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">음식물처리기</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">인덕션</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">입주청소</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">줄눈</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">중문</p>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">층간소음매트</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">카테고리11</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">카테고리12</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">카테고리13</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">카테고리14</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">카테고리15</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">카테고리16</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">카테고리17</p>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">카테고리18</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cata-icon">
+                  <img
+                    src="img/main/cata-thum.png"
+                    alt="카테고리 이미지"
+                  />
+                </div>
+                <p class="cata-tit">카테고리19</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--main-sec2-->
+      <section class="wrap main-sec2 pro-list">
+        <div class="inner">
+          <div class="pro-etc">
+            <div class="left-area">
+              <button class="region-btn">
+                <svg
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M15 5C10.8579 5 7.5 8.35786 7.5 12.5C7.5 13.7848 7.95493 15.221 8.72688 16.7098C9.49321 18.1877 10.5295 19.6365 11.5899 20.9241C12.6473 22.2081 13.7081 23.3071 14.506 24.086C14.6854 24.2611 14.8511 24.4197 15 24.5601C15.1489 24.4197 15.3146 24.2611 15.494 24.086C16.2919 23.3071 17.3527 22.2081 18.4101 20.9241C19.4705 19.6365 20.5068 18.1877 21.2731 16.7098C22.0451 15.221 22.5 13.7848 22.5 12.5C22.5 8.35786 19.1421 5 15 5ZM15 26.25C14.1865 27.1991 14.1863 27.1989 14.186 27.1987L14.1834 27.1964L14.1771 27.191L14.1552 27.172C14.1365 27.1557 14.1097 27.1324 14.0754 27.1022C14.0069 27.0418 13.9082 26.954 13.7837 26.8409C13.5347 26.6147 13.1818 26.287 12.7596 25.8749C11.9169 25.0522 10.7902 23.8857 9.66009 22.5134C8.533 21.1448 7.38179 19.5467 6.50749 17.8606C5.63882 16.1853 5 14.3402 5 12.5C5 6.97715 9.47715 2.5 15 2.5C20.5228 2.5 25 6.97715 25 12.5C25 14.3402 24.3612 16.1853 23.4925 17.8606C22.6182 19.5467 21.467 21.1448 20.3399 22.5134C19.2098 23.8857 18.0831 25.0522 17.2404 25.8749C16.8182 26.287 16.4653 26.6147 16.2163 26.8409C16.0918 26.954 15.9931 27.0418 15.9246 27.1022C15.8903 27.1324 15.8635 27.1557 15.8448 27.172L15.8229 27.191L15.8166 27.1964L15.8147 27.1981C15.8144 27.1983 15.8135 27.1991 15 26.25ZM15 26.25L14.186 27.1987C14.6541 27.5999 15.3454 27.6003 15.8135 27.1991L15 26.25ZM15 10C13.6193 10 12.5 11.1193 12.5 12.5C12.5 13.8807 13.6193 15 15 15C16.3807 15 17.5 13.8807 17.5 12.5C17.5 11.1193 16.3807 10 15 10ZM10 12.5C10 9.73858 12.2386 7.5 15 7.5C17.7614 7.5 20 9.73858 20 12.5C20 15.2614 17.7614 17.5 15 17.5C12.2386 17.5 10 15.2614 10 12.5Z"
+                    fill="#AAAAAA"
+                  />
+                </svg>
+              </button>
+              <div class="region-selected">
+                서울특별시 영등포구
+                <button class="close">
+                  <img src="img/icon/ic-close2.svg" alt="닫기" />
+                </button>
+              </div>
+              <div class="region-list">
+                <div class="title">
+                  지역 선택
+                  <button class="close">
+                    <img src="img/icon/ic-close.svg" alt="닫기" />
+                  </button>
+                </div>
+                <div class="list-wrap">
+                  <div class="list-box">
+                    <p class="title">특별시/광역시/도</p>
+                    <ul class="list-scroll">
+                      <li class="checked">서울특별시</li>
+                      <li>서울특별시</li>
+                      <li>인천광역시</li>
+                      <li>대구광역시</li>
+                      <li>서울특별시</li>
+                      <li>서울특별시</li>
+                      <li>서울특별시</li>
+                      <li>서울특별시</li>
+                      <li>서울특별시</li>
+                      <li>서울특별시</li>
+                      <li>서울특별시</li>
+                      <li>서울특별시</li>
+                    </ul>
+                  </div>
+                  <div class="list-box">
+                    <p class="title">시/군/구</p>
+                    <ul class="list-scroll">
+                      <li>전체</li>
+                      <li>강남구</li>
+                      <li>강동구</li>
+                      <li>강북구</li>
+                      <li class="checked2">영등포구</li>
+                      <li>전체</li>
+                      <li>전체</li>
+                      <li>전체</li>
+                      <li>전체</li>
+                      <li>전체</li>
+                      <li>전체</li>
+                      <li>전체</li>
+                    </ul>
+                  </div>
+                </div>
+                <button class="btn">확인</button>
+              </div>
+            </div>
+            <div class="right-area">
+              <div class="search-wrap">
+                <input type="search" placeholder="업체명 검색" />
+              </div>
+              <div class="pro-filter">
+                <button class="on">
+                  <svg
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="5"
+                      y="5"
+                      width="7.5"
+                      height="7.5"
+                      rx="1"
+                      stroke="#AAAAAA"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                    <rect
+                      x="5"
+                      y="17.5"
+                      width="7.5"
+                      height="7.5"
+                      rx="1"
+                      stroke="#AAAAAA"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                    <rect
+                      x="17.5"
+                      y="17.5"
+                      width="7.5"
+                      height="7.5"
+                      rx="1"
+                      stroke="#AAAAAA"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                    <rect
+                      x="17.5"
+                      y="5"
+                      width="7.5"
+                      height="7.5"
+                      rx="1"
+                      stroke="#AAAAAA"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+                <button>
+                  <svg
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.25 8.75H23.75"
+                      stroke="#AAAAAA"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M6.25 15H23.75"
+                      stroke="#AAAAAA"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M6.25 21.25H23.75"
+                      stroke="#AAAAAA"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="pro-wrap">
+            <div class="pro-box">
+              <a href="partners.html">
+                <div class="pro-img">
+                  <img src="img/main/BMW-Logo-1997.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    <!--기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.-->
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/hanwha.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/facebook.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/supreme.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="pro-box">
+              <a href="#">
+                <div class="pro-img">
+                  <img src="img/main/pro-thum.png" alt="썸네일" />
+                </div>
+                <div class="pro-text">
+                  <h3 class="pro-tit">포트박스</h3>
+                  <p class="pro-con">
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+                    미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+                    기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+                    들어갑니다.
+                  </p>
+                  <div class="pro-cata">
+                    <ul class="cata-list">
+                      <li>시스템 에어컨</li>
+                      <li>도배</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                  <div class="pro-region">
+                    <ul class="region-list">
+                      <li>서울</li>
+                      <li>경기</li>
+                      <li>인천</li>
+                      <li>강원</li>
+                    </ul>
+                    <p class="add-num">+2</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="pagenation">
+            <ul class="pagenation-list">
+              <li class="next-btn">
+                <a href="#">
+                  <img src="img/icon/ic-prev.svg" alt="이전" />
+                  이전
+                </a>
+              </li>
+              <li class="num on">
+                <a href="#">1</a>
+              </li>
+              <li class="num">
+                <a href="#">2</a>
+              </li>
+              <li class="num">
+                <a href="#">3</a>
+              </li>
+              <li class="num">
+                <a href="#">4</a>
+              </li>
+              <li class="num">
+                <a href="#">5</a>
+              </li>
+              <li class="next-btn">
+                <a href="#">
+                  다음
+                  <img src="img/icon/ic-next.svg" alt="다음" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--footer-->
+    <footer>
+      <div class="inner">
+        <ul class="footer-menu">
+          <li>
+            <a href="#">이용약관</a>
+          </li>
+          <li>
+            <a href="#">개인정보처리방침</a>
+          </li>
+          <li>
+            <a href="#">청소년보호정책</a>
+          </li>
+          <li>
+            <a href="#">전자금융거래약관</a>
+          </li>
+          <li>
+            <a href="#">마케팅정보수신동의</a>
+          </li>
+          <li>
+            <a href="#">입점문의</a>
+          </li>
+        </ul>
+        <div class="footer-info">
+          <h1 class="logo">
+            <a href="index.html">
+              <img src="img/logo2.png" alt="포트박스 로고" />
+            </a>
+          </h1>
+          <div class="info-list">
+            <div class="info-box">
+              <p class="info-tit">(주)포트박스</p>
+              <p class="info-txt1">
+                대표이사:정호수 <br />
+                주소:서울특별시 구로구 디지털로34길 55, B201-G3 <br />
+                사업자등록번호:740-86-02866
+              </p>
+              <p class="info-txt2">
+                (주)포트박스는 통신판매중개자로서 거래당사자가 아니며 <br />
+                입점 판매자가 등록한 상품, 거래정보 및 거래에 대하여 <br />
+                (주)포트박스는 일체의 책임을 지지 않습니다. <br />
+                COPYRIGHT. PORTBOX CO. ALL RIGHTS
+              </p>
+            </div>
+            <div class="info-box">
+              <p class="info-tit">고객센터</p>
+              <p class="info-txt1">
+                E-mail. cs@portbox.co.kr <br />
+                카카오톡상담. <span>포트비</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
