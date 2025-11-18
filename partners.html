@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포트비</title>
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--swiper-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--font-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <!--css-->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!--header-->
+    <div class="pc-head">
+      <div class="inner">
+        <div class="left-area">
+          <h1 class="logo">
+            <a href="index.html">
+              <img src="img/logo.png" alt="포트비 로고" />
+            </a>
+          </h1>
+          <ul class="menu-depth1">
+            <li>
+              <a href="#">입주 업체</a>
+            </li>
+            <li>
+              <a href="#">커뮤니티</a>
+            </li>
+            <li>
+              <a href="#">포텐츠</a>
+            </li>
+            <li>
+              <a href="#">이벤트</a>
+            </li>
+            <li>
+              <a href="#">입주 체크리스트</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login-area">
+          <ul class="login-btn login-before">
+            <li>
+              <a href="#">로그인</a>
+            </li>
+            <li class="bg-blue">
+              <a href="#">회원가입</a>
+            </li>
+          </ul>
+          <ul class="login-btn login-after">
+            <li>
+              <a href="#">로그아웃</a>
+            </li>
+            <li class="bg-blue">
+              <a href="#">마이페이지</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-btn">
+          <button class="search">
+            <img src="img/icon/ic-search2.svg" alt="검색" />
+          </button>
+          <div class="hambuger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mob-menu">
+      <ul class="mob-main">
+        <li>
+          <a href="#"> 입주 업체 </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)"> 커뮤니티 <span class="plus"></span></a>
+          <ul class="mob-sub">
+            <li>
+              <a href="#">서브1</a>
+            </li>
+            <li>
+              <a href="#">서브2</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)"> 포텐츠 <span class="plus"></span></a>
+          <ul class="mob-sub">
+            <li>
+              <a href="#">서브1</a>
+            </li>
+            <li>
+              <a href="#">서브2</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)">이벤트 <span class="plus"></span></a>
+          <ul class="mob-sub">
+            <li>
+              <a href="#">서브1</a>
+            </li>
+            <li>
+              <a href="#">서브2</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)">
+            입주 체크리스트 <span class="plus"></span
+          ></a>
+          <ul class="mob-sub">
+            <li>
+              <a href="#">서브1</a>
+            </li>
+            <li>
+              <a href="#">서브2</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!--content-->
+    <div class="content partner-wrap">
+      <div class="partner-info">
+        <div class="inner">
+          <div class="img-box">
+            <img src="img/partner/partner-thum.png" alt="파트너 로고" />
+          </div>
+          <div class="info-box">
+            <h3 class="partner-name">포트박스</h3>
+            <p class="partner-con">
+              기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+              들어갑니다.기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+              들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+              미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+              기업설명이 미리보기로 들어갑니다. 기업설명이 미리보기로
+              들어갑니다. 기업설명이 미리보기로 들어갑니다. 기업설명이
+              미리보기로 들어갑니다. 기업설명이 미리보기로 들어갑니다.
+              기업설명이 미리보기로 들어갑니다.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="partner-info2">
+        <div class="inner">
+          <div class="left-area">
+            <div class="info-box">
+              <h3 class="info-tit">기업정보</h3>
+              <div class="info-list">
+                <dl>
+                  <dt>대표자명</dt>
+                  <dd>홍길동</dd>
+                </dl>
+                <dl>
+                  <dt>시공분야</dt>
+                  <dd>
+                    <span>
+                      카테고리1, 카테고리1, 카테고리1, 카테고리1, 카테고리1,
+                      카테고리1, 카테고리1, 카테고리1, 카테고리1,
+                      카테고리1,카테고리1
+                    </span>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>전화번호</dt>
+                  <dd>0505-1234-5678</dd>
+                </dl>
+                <dl>
+                  <dt>이메일</dt>
+                  <dd>portbox@portbox.co.kr</dd>
+                </dl>
+                <dl>
+                  <dt>주소</dt>
+                  <dd>
+                    서울특별시 구로구 디지털로34길 55, 코오롱싸이언스밸스 2차
+                    B101
+                  </dd>
+                </dl>
+              </div>
+            </div>
+            <div class="region-box">
+              <h3 class="info-tit">서비스 지역</h3>
+              <div class="region-list">
+                <dl>
+                  <dt>서울특별시</dt>
+                  <dd>
+                    구로구, 영등포구, 동작구, 관악구, 금천구, 영등포구, 동작구,
+                    관악구, 금천구, 영등포구, 동작구, 관악구, 금천구, 용산구,
+                    종로구, 중랑구, 노원구
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>경기도</dt>
+                  <dd>수원시, 여주시, 가평군, 양평군</dd>
+                </dl>
+                <dl>
+                  <dt>인천</dt>
+                  <dd>중구, 연수구, 강화군</dd>
+                </dl>
+                <dl>
+                  <dt>강원도</dt>
+                  <dd>춘천시, 강릉시, 속초시, 고성군</dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div class="right-area">
+            <div class="site-box">
+              <h3 class="info-tit">관련 사이트</h3>
+              <ul class="site-list">
+                <li class="on">
+                  <a href="#">
+                    <img src="img/icon/ic-home-gray.png" alt="홈" />
+                    <img src="img/icon/ic-home.png" alt="홈" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/icon/ic-kakao-gray.png" alt="카카오" />
+                    <img src="img/icon/ic-kakao.png" alt="카카오" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/icon/ic-blog-gray.png" alt="블로그" />
+                    <img src="img/icon/ic-blog.png" alt="블로그" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="img/icon/ic-youtube-gray.png"
+                      alt="유튜브"
+                    />
+                    <img src="img/icon/ic-youtube.png" alt="유튜브" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="down-box">
+              <h3 class="info-tit">업체 소개서</h3>
+              <a href="#" class="on">
+                <svg
+                  width="31"
+                  height="30"
+                  viewBox="0 0 31 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M15.5 2.5C16.1904 2.5 16.75 3.05964 16.75 3.75V16.9822L19.6161 14.1161C20.1043 13.628 20.8957 13.628 21.3839 14.1161C21.872 14.6043 21.872 15.3957 21.3839 15.8839L16.3839 20.8839C15.8957 21.372 15.1043 21.372 14.6161 20.8839L9.61612 15.8839C9.12796 15.3957 9.12796 14.6043 9.61612 14.1161C10.1043 13.628 10.8957 13.628 11.3839 14.1161L14.25 16.9822V3.75C14.25 3.05964 14.8096 2.5 15.5 2.5ZM6.75 21.25C7.44036 21.25 8 21.8096 8 22.5V25H23V22.5C23 21.8096 23.5596 21.25 24.25 21.25C24.9404 21.25 25.5 21.8096 25.5 22.5V25C25.5 26.3807 24.3807 27.5 23 27.5H8C6.61929 27.5 5.5 26.3807 5.5 25V22.5C5.5 21.8096 6.05964 21.25 6.75 21.25Z"
+                    fill="#DDDDDD"
+                  />
+                </svg>
+                다운로드
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partner-swiper">
+        <div class="inner">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="javascript:openModal('modal1');">
+                  <img
+                    src="img/partner/partner-thum2.png"
+                    alt="기업 썸네일"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:openModal('modal1');">
+                  <img
+                    src="img/partner/partner-thum2.png"
+                    alt="기업 썸네일"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:openModal('modal1');">
+                  <img
+                    src="img/partner/partner-thum2.png"
+                    alt="기업 썸네일"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:openModal('modal1');">
+                  <img
+                    src="img/partner/partner-thum2.png"
+                    alt="기업 썸네일"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:openModal('modal1');">
+                  <img
+                    src="img/partner/partner-thum2.png"
+                    alt="기업 썸네일"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:openModal('modal1');">
+                  <img
+                    src="img/partner/partner-thum2.png"
+                    alt="기업 썸네일"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-control">
+          <div class="swiper-button-prev">
+            <img src="img/icon/ic-prev2.png" alt="이전" />
+          </div>
+          <div class="swiper-button-next">
+            <img src="img/icon/ic-next2.png" alt="다음" />
+          </div>
+        </div>
+      </div>
+      <div class="partner-tab">
+        <div class="inner">
+          <ul class="tab-nav">
+            <li class="on">상세정보</li>
+            <li>스토리</li>
+            <li>문의</li>
+          </ul>
+          <div class="tab-con">
+            <div class="tab-detail on">
+              <!--내용없을시-->
+              <div class="tab-null">
+                <p>
+                  <img src="img/icon/ic-info.svg" alt="정보 아이콘" />
+                  등록된 상세정보가 없습니다.
+                </p>
+              </div>
+              <!--내용있을시-->
+              <div class="detail-con">
+                <img src="img/partner/partner-thum3.png" alt="" />
+              </div>
+            </div>
+            <div class="tab-story">
+              <!--내용없을시-->
+              <div class="tab-null">
+                <p>
+                  <img src="img/icon/ic-info.svg" alt="정보 아이콘" />
+                  등록된 스토리가 없습니다.
+                </p>
+              </div>
+              <!--내용있을시-->
+              <div class="story-board">
+                <div class="board-list">
+                  <div class="list-box">
+                    <a href="story.html">
+                      <div class="img-box">
+                        <img
+                          src="img/partner/partner-thum4.png"
+                          alt="스토리 썸네일"
+                        />
+                      </div>
+                      <div class="txt-box">
+                        <h1 class="title">
+                          제목은 최대 2줄이고, 2줄을 넘어갈 시 ... 표시입니다.
+                          제목은 최대 2줄이고, 2줄을 넘..
+                        </h1>
+                        <p class="date">2024.00.00 00:00</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="list-box">
+                    <a href="story.html">
+                      <div class="img-box">
+                        <img
+                          src="img/partner/partner-thum4.png"
+                          alt="스토리 썸네일"
+                        />
+                      </div>
+                      <div class="txt-box">
+                        <h1 class="title">오늘의 인덕션 설치 일지입니다.</h1>
+                        <p class="date">2024.00.00 00:00</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="list-box">
+                    <a href="story.html">
+                      <div class="img-box">
+                        <img
+                          src="img/partner/partner-thum4.png"
+                          alt="스토리 썸네일"
+                        />
+                      </div>
+                      <div class="txt-box">
+                        <h1 class="title">
+                          제목은 최대 2줄이고, 2줄을 넘어갈 시 ... 표시입니다.
+                          제목은 최대 2줄이고, 2줄을 넘..
+                        </h1>
+                        <p class="date">2024.00.00 00:00</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="list-box">
+                    <a href="story.html">
+                      <div class="img-box">
+                        <img
+                          src="img/partner/partner-thum4.png"
+                          alt="스토리 썸네일"
+                        />
+                      </div>
+                      <div class="txt-box">
+                        <h1 class="title">
+                          제목은 최대 2줄이고, 2줄을 넘어갈 시 ... 표시입니다.
+                          제목은 최대 2줄이고, 2줄을 넘..
+                        </h1>
+                        <p class="date">2024.00.00 00:00</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="list-box">
+                    <a href="story.html">
+                      <div class="img-box">
+                        <img
+                          src="img/partner/partner-thum4.png"
+                          alt="스토리 썸네일"
+                        />
+                      </div>
+                      <div class="txt-box">
+                        <h1 class="title">
+                          제목은 최대 2줄이고, 2줄을 넘어갈 시 ... 표시입니다.
+                          제목은 최대 2줄이고, 2줄을 넘..
+                        </h1>
+                        <p class="date">2024.00.00 00:00</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="pagenation">
+                  <ul class="pagenation-list">
+                    <li class="next-btn">
+                      <a href="#">
+                        <img src="img/icon/ic-prev.svg" alt="이전" />
+                        이전
+                      </a>
+                    </li>
+                    <li class="num on">
+                      <a href="#">1</a>
+                    </li>
+                    <li class="num">
+                      <a href="#">2</a>
+                    </li>
+                    <li class="num">
+                      <a href="#">3</a>
+                    </li>
+                    <li class="num">
+                      <a href="#">4</a>
+                    </li>
+                    <li class="num">
+                      <a href="#">5</a>
+                    </li>
+                    <li class="next-btn">
+                      <a href="#">
+                        다음
+                        <img src="img/icon/ic-next.svg" alt="다음" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="tab-inquiry">
+              <div class="inquiry-form">
+                <h3 class="inquiry-tit">문의 작성</h3>
+                <!--로그인 후-->
+                <div class="login-after">
+                  <ul class="inquiry-info">
+                    <li>
+                      <img src="img/icon/ic-info.svg" alt="주의" />
+                      견적 문의 등과 관계없는 글, 광고성, 욕설, 비방, 도배 등의
+                      글은 예고 없이 삭제됩니다.
+                    </li>
+                    <li>
+                      <img src="img/icon/ic-info.svg" alt="주의" />
+                      개인정보보호를 위해 문의에 개인정보를 입력하지 말아주세요.
+                    </li>
+                  </ul>
+                  <textarea placeholder="내용을 입력해주세요."></textarea>
+                  <div class="btn-wrap">
+                    <label class="check-wrap">
+                      <input type="checkbox" />
+                      <svg
+                        width="24"
+                        height="25"
+                        viewBox="0 0 24 25"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M12 2.99961C6.69807 2.99961 2.4 7.29768 2.4 12.5996C2.4 17.9015 6.69807 22.1996 12 22.1996C17.3019 22.1996 21.6 17.9015 21.6 12.5996C21.6 7.29768 17.3019 2.99961 12 2.99961ZM0 12.5996C0 5.97219 5.37258 0.599609 12 0.599609C18.6274 0.599609 24 5.97219 24 12.5996C24 19.227 18.6274 24.5996 12 24.5996C5.37258 24.5996 0 19.227 0 12.5996ZM17.5972 8.70272C18.0926 9.14302 18.1372 9.90151 17.6969 10.3968L11.2969 17.5968C11.0692 17.853 10.7428 17.9996 10.4 17.9996C10.0572 17.9996 9.73083 17.853 9.50311 17.5968L6.30311 13.9968C5.86281 13.5015 5.90742 12.743 6.40276 12.3027C6.8981 11.8624 7.65659 11.907 8.09689 12.4024L10.4 14.9934L15.9031 8.80237C16.3434 8.30703 17.1019 8.26242 17.5972 8.70272Z"
+                          fill="#999999"
+                        />
+                      </svg>
+                      <p>비공개 문의</p>
+                    </label>
+                    <button>문의 등록</button>
+                  </div>
+                </div>
+                <!--로그인전-->
+                <div class="login-before">
+                  <p>문의 작성을 위해 로그인이 필요합니다.</p>
+                  <button>로그인</button>
+                </div>
+              </div>
+              <div class="inquiry-list">
+                <h3 class="inquiry-tit">문의 목록</h3>
+                <div class="list-wrap">
+                  <div class="list-box">
+                    <div class="list-info">
+                      <p>닉네임</p>
+                      <p>2024.00.00 00:00</p>
+                    </div>
+                    <div class="inquiry-con">
+                      문의 내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문...
+                    </div>
+                  </div>
+                  <div class="list-box">
+                    <div class="list-info">
+                      <p>닉네임</p>
+                      <p>2024.00.00 00:00</p>
+                    </div>
+                    <div class="inquiry-con">
+                      문의 내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                      내용입니다. 문...
+                    </div>
+                    <div class="list-box coment-box">
+                      <div class="list-info">
+                        <p class="name">파트너스</p>
+                        <p>2024.00.00 00:00</p>
+                      </div>
+                      <div class="inquiry-con">
+                        문의 내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                        내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                        내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                        내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                        내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                        내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                        내용입니다. 문의 내용입니다. 문의 내용입니다. 문의
+                        내용입니다. 문...
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list-box">
+                    <div class="list-info">
+                      <p>닉**</p>
+                      <p>2024.00.00 00:00</p>
+                    </div>
+                    <div class="inquiry-con">
+                      <p class="secret">
+                        <img src="img/icon/ic-lock.svg" alt="비공개" />
+                        비공개 문의입니다.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="pagenation">
+                  <ul class="pagenation-list">
+                    <li class="next-btn">
+                      <a href="#">
+                        <img src="img/icon/ic-prev.svg" alt="이전" />
+                        이전
+                      </a>
+                    </li>
+                    <li class="num on">
+                      <a href="#">1</a>
+                    </li>
+                    <li class="num">
+                      <a href="#">2</a>
+                    </li>
+                    <li class="num">
+                      <a href="#">3</a>
+                    </li>
+                    <li class="num">
+                      <a href="#">4</a>
+                    </li>
+                    <li class="num">
+                      <a href="#">5</a>
+                    </li>
+                    <li class="next-btn">
+                      <a href="#">
+                        다음
+                        <img src="img/icon/ic-next.svg" alt="다음" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <footer>
+      <div class="inner">
+        <ul class="footer-menu">
+          <li>
+            <a href="#">이용약관</a>
+          </li>
+          <li>
+            <a href="#">개인정보처리방침</a>
+          </li>
+          <li>
+            <a href="#">청소년보호정책</a>
+          </li>
+          <li>
+            <a href="#">전자금융거래약관</a>
+          </li>
+          <li>
+            <a href="#">마케팅정보수신동의</a>
+          </li>
+          <li>
+            <a href="#">입점문의</a>
+          </li>
+        </ul>
+        <div class="footer-info">
+          <h1 class="logo">
+            <a href="index.html">
+              <img src="img/logo2.png" alt="포트박스 로고" />
+            </a>
+          </h1>
+          <div class="info-list">
+            <div class="info-box">
+              <p class="info-tit">(주)포트박스</p>
+              <p class="info-txt1">
+                대표이사:정호수 <br />
+                주소:서울특별시 구로구 디지털로34길 55, B201-G3 <br />
+                사업자등록번호:740-86-02866
+              </p>
+              <p class="info-txt2">
+                (주)포트박스는 통신판매중개자로서 거래당사자가 아니며 <br />
+                입점 판매자가 등록한 상품, 거래정보 및 거래에 대하여 <br />
+                (주)포트박스는 일체의 책임을 지지 않습니다. <br />
+                COPYRIGHT. PORTBOX CO. ALL RIGHTS
+              </p>
+            </div>
+            <div class="info-box">
+              <p class="info-tit">고객센터</p>
+              <p class="info-txt1">
+                E-mail. cs@portbox.co.kr <br />
+                카카오톡상담. <span>포트비</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--popup-->
+    <div class="popup modal1 partner-popup">
+      <div class="popup-con">
+        <div class="close">
+          <img src="img/icon/ic-close.svg" alt="닫기" />
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img
+                  src="img/partner/partner-thum2.png"
+                  alt="기업 썸네일"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img
+                  src="img/partner/partner-thum2.png"
+                  alt="기업 썸네일"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img
+                  src="img/partner/partner-thum2.png"
+                  alt="기업 썸네일"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-nav">
+          <div class="swiper-button-prev">
+            <img src="img/icon/ic-prev2.png" alt="이전" />
+          </div>
+          <div class="swiper-button-next">
+            <img src="img/icon/ic-next2.png" alt="다음" />
+          </div>
+        </div>
+        <div class="swiper-pag">
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/partners.js"></script>
+  </body>
+</html>

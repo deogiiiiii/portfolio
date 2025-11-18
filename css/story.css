@@ -1,0 +1,428 @@
+.story-wrap .story-view {
+  margin-top: 56px;
+}
+.story-wrap .story-view .view-top {
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--gray01);
+}
+.story-wrap .story-view .view-top .view-tit {
+  font-size: var(--size24);
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.story-wrap .story-view .view-top .view-time {
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--gray04);
+}
+.story-wrap .story-view .view-con {
+  padding: 28px 0 100px;
+  border-bottom: 1px solid var(--gray01);
+}
+.story-wrap .story-view .view-con img {
+  margin-bottom: 56px;
+}
+.story-wrap .story-view .view-con p {
+  font-size: var(--size24);
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--black02);
+}
+.story-wrap .story-comment {
+  padding: 56px 0;
+}
+.story-wrap .story-comment .comment-tit {
+  font-size: var(--size24);
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+.story-wrap .story-comment .comment-form .info-list {
+  background: var(--gray07);
+  padding: 14px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.story-wrap .story-comment .comment-form .info-list > li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--black04);
+  font-weight: 500;
+}
+.story-wrap .story-comment .comment-form .info-list > li img {
+  width: 24px;
+}
+.story-wrap .story-comment .comment-form textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid var(--gray01);
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  margin: 28px 0;
+}
+.story-wrap .story-comment .comment-form textarea::placeholder {
+  color: var(--gray04);
+}
+.story-wrap .story-comment .comment-form .btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.story-wrap .story-comment .comment-form .btn-wrap button {
+  width: 100%;
+  max-width: 384px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--size20);
+  font-weight: 700;
+  background: var(--primary);
+  color: var(--white);
+  border-radius: 5px;
+}
+.story-wrap .story-comment .login-before {
+  text-align: center;
+  display: none;
+}
+.story-wrap .story-comment .login-before p {
+  font-size: var(--size18);
+  font-weight: 700;
+  color: var(--black04);
+  margin-bottom: 70px;
+}
+.story-wrap .story-comment .login-before button {
+  width: 100%;
+  max-width: 384px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--size20);
+  font-weight: 700;
+  background: var(--primary);
+  color: var(--white);
+  border-radius: 5px;
+}
+.login-popup .popup-con {
+  width: calc(100% - 32px);
+  max-width: 600px;
+  background: var(--white);
+  border-radius: 5px;
+  border: 1px solid var(--gray08);
+  padding: 28px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-popup .popup-con p {
+  font-size: var(--size18);
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+.login-popup .popup-con .btn-wrap {
+  display: flex;
+  gap: 28px;
+}
+.login-popup .popup-con .btn-wrap button {
+  width: calc(50% - 14px);
+  height: 60px;
+  border-radius: 5px;
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--white);
+  font-size: var(--size20);
+  font-weight: 700;
+}
+.login-popup .popup-con .btn-wrap button.close {
+  background: var(--white);
+  color: var(--primary);
+}
+.story-wrap .comment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 56px;
+}
+.story-wrap .comment-list .list-title {
+  font-size: var(--size24);
+  font-weight: 700;
+}
+.story-wrap .comment-list .comment-box {
+  border: 1px solid var(--gray01);
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.story-wrap .comment-list .comment-box2 {
+  margin-top: 28px;
+}
+.story-wrap .comment-list .comment-etc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.story-wrap .comment-list .comment-etc .delete-wrap {
+  position: relative;
+}
+.story-wrap .comment-list .comment-etc .delete-wrap .delete-btn {
+  width: 30px;
+}
+.story-wrap .comment-list .comment-etc .delete-wrap .real-delete {
+  position: absolute;
+  left: 0;
+  top: 48px;
+  padding: 8px 52px;
+  border: 1px solid var(--gray08);
+  border-radius: 5px;
+  background: var(--white);
+  font-size: var(--size18);
+  color: var(--black02);
+  font-weight: 700;
+  width: max-content;
+  display: none;
+}
+.story-wrap .comment-list .comment-etc .nickname {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.story-wrap .comment-list .comment-etc .nickname .profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid var(--gray01);
+}
+.story-wrap .comment-list .comment-etc .nickname .profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.story-wrap .comment-list .comment-etc .nickname .nick-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--gray04);
+}
+.story-wrap .comment-list .comment-con {
+  margin: 14px 0;
+  color: var(--black04);
+  line-height: 1.5;
+}
+.story-wrap .comment-list .comment-con span {
+  color: var(--primary);
+}
+.story-wrap .comment-list .plus-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--gray02);
+}
+.story-wrap .comment-list .plus-btn.on {
+  color: var(--primary);
+}
+.story-wrap .comment-list .plus-btn.on svg path {
+  fill: var(--primary);
+}
+.story-wrap .comment-list .plus-form {
+  margin-top: 28px;
+  border: 1px solid var(--gray01);
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 5px;
+  display: none;
+}
+.story-wrap .comment-list .plus-form textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid var(--gray01);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 14px 0 20px;
+}
+.story-wrap .comment-list .plus-form textarea::placeholder {
+  color: var(--gray04);
+}
+.story-wrap .comment-list .plus-form .btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.story-wrap .comment-list .plus-form .btn-wrap button {
+  width: 100%;
+  max-width: 258px;
+  height: 60px;
+  background: var(--primary);
+  color: var(--white);
+  border-radius: 5px;
+  font-size: var(--size20);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.story-wrap .story-list {
+  padding-bottom: 180px;
+}
+.story-wrap .story-list .list-tit {
+  font-size: var(--size24);
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+.story-wrap .story-list .list-wrap > li > a {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 28px 14px;
+  border-top: 1px solid var(--gray01);
+}
+.story-wrap .story-list .list-wrap > li:last-child > a {
+  border-bottom: 1px solid var(--gray01);
+}
+.story-wrap .story-list .list-wrap .date {
+  font-size: 14px;
+  color: var(--gray04);
+  width: 110px;
+}
+.story-wrap .story-list .list-wrap .title {
+  width: calc(100% - 140px);
+  color: var(--black01);
+  box-sizing: border-box;
+  padding-left: 12px;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.story-wrap .story-list .list-wrap .title::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--black01);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.story-wrap .story-list .pagenation {
+  margin-top: 100px;
+}
+@media screen and (max-width: 600px) {
+  .story-wrap .story-view {
+    margin-top: 14px;
+  }
+  .story-wrap .story-view .view-top .view-tit {
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+  }
+  .story-wrap .story-view .view-con {
+    padding: 20px 0 56px;
+  }
+  .story-wrap .story-view .view-con img {
+    margin-bottom: 20px;
+  }
+  .story-wrap .story-view .view-con p {
+    font-size: 14px;
+  }
+  .story-wrap .story-comment {
+    padding: 28px 0 56px;
+  }
+  .story-wrap .story-comment .comment-tit {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .story-wrap .story-comment .comment-form .info-list > li {
+    align-items: flex-start;
+  }
+  .story-wrap .story-comment .comment-form .info-list > li img {
+    width: 15px;
+    margin-top: 2px;
+  }
+  .story-wrap .comment-list {
+    margin-top: 28px;
+    gap: 14px;
+  }
+  .story-wrap .comment-list .list-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .story-wrap .comment-list .comment-box {
+    padding: 10px 10px 14px 10px;
+  }
+  .story-wrap .comment-list .comment-etc .nickname {
+    gap: 8px;
+  }
+  .story-wrap .comment-list .comment-etc .nickname .profile {
+    width: 40px;
+    height: 40px;
+  }
+  .story-wrap .comment-list .comment-etc .nickname .profile {
+    font-size: 12px;
+  }
+  .story-wrap .comment-list .comment-etc .delete-wrap .delete-btn {
+    width: 22px;
+  }
+  .story-wrap .comment-list .comment-etc .delete-wrap .real-delete {
+    left: auto;
+    right: 0;
+    top: 30px;
+    font-size: 14px;
+    padding: 8px 24px;
+  }
+  .login-popup .popup-con .btn-wrap {
+    gap: 14px;
+  }
+  .login-popup .popup-con .btn-wrap button {
+    width: calc(50% - 7px);
+  }
+  .story-wrap .comment-list .plus-form {
+    margin-top: 14px;
+    padding: 10px;
+  }
+  .story-wrap .comment-list .plus-form .btn-wrap button {
+    max-width: none;
+  }
+  .story-wrap .story-list .list-tit {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .story-wrap .story-list .list-wrap > li > a {
+    gap: 10px;
+    padding: 14px 0;
+  }
+  .story-wrap .story-list .list-wrap .title {
+    font-size: 14px;
+    width: calc(100% - 90px);
+    font-weight: 500;
+  }
+  .story-wrap .story-list .list-wrap .date {
+    font-size: 12px;
+    width: 80px;
+  }
+  .story-wrap .story-list .pagenation {
+    margin-top: 28px;
+  }
+  .story-wrap .story-list {
+    padding-bottom: 140px;
+  }
+}
